@@ -16,3 +16,13 @@ Static, responsive SaaS marketing website for CodexiaTrust, a NIS2 readiness pla
 ## Local Preview
 
 Open `index.html` directly in a browser or serve the folder with any static web server.
+
+## Recommended Deployment
+
+Use Cloudflare Pages for `codexiatrust.com`.
+
+- Framework preset: None
+- Build command: leave empty
+- Build output directory: `/`
+- Production branch: `main`
+- Custom domain: `codexiatrust.com`
