@@ -1,6 +1,6 @@
 # CodexiaTrust Website
 
-Static, responsive SaaS marketing website for CodexiaTrust, a NIS2 readiness platform for Dutch SMEs.
+Static, responsive SaaS marketing website for CodexiaTrust, a NIS2 readiness platform for SMEs.
 
 ## Pages
 
