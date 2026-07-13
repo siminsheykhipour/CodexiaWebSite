@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 6 106 106" width="106" height="106" role="img" aria-label="CodexiaTrust">
+  <defs>
+    <!-- userSpaceOnUse: the gold stem is a vertical line, so an objectBoundingBox
+         gradient would collapse on its zero-width box and refuse to paint -->
+    <linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="96" y1="26" x2="108" y2="88">
+      <stop offset="0" stop-color="#f0c75e"/>
+      <stop offset="0.5" stop-color="#d4a12a"/>
+      <stop offset="1" stop-color="#a9750d"/>
+    </linearGradient>
+    <linearGradient id="blue" gradientUnits="userSpaceOnUse" x1="18" y1="12" x2="96" y2="108">
+      <stop offset="0" stop-color="#2c53a8"/>
+      <stop offset="1" stop-color="#14306d"/>
+    </linearGradient>
+  </defs>
+  <!-- Small-size variant of logo.svg: viewBox cropped to the art bounds, and the five
+       circuit teeth reduced to two at double the stroke width. The originals sit 2.9
+       units apart, which is sub-pixel once this is drawn at 38px. -->
+  <g fill="none" stroke-linejoin="miter" stroke-linecap="butt">
+    <path d="M88 28 L60 12 L18.4 36 L18.4 84 L60 108 L101.6 84" stroke="url(#blue)" stroke-width="9"/>
+    <path d="M80.4 46.5 L57 33 L33.6 46.5 L33.6 73.5 L57 87 L80.4 73.5" stroke="url(#blue)" stroke-width="11"/>
+    <path d="M101.6 33 L101.6 84" stroke="url(#gold)" stroke-width="10"/>
+    <g stroke="url(#gold)" stroke-width="5">
+      <path d="M87.7 33.7 L92.7 25.1"/>
+      <path d="M95.5 38.3 L100.5 29.7"/>
+    </g>
+  </g>
+</svg>
