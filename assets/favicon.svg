@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="CodexiaTrust">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#16336f"/>
+      <stop offset="1" stop-color="#0d1f45"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="26" fill="url(#tile)"/>
+  <!-- simplified mark: teeth and gradients dropped so it survives 16px rendering -->
+  <g fill="none" stroke-linejoin="miter" stroke-linecap="butt"
+     transform="translate(60 60) scale(0.68) translate(-60 -60)">
+    <path d="M88 28 L60 12 L18.4 36 L18.4 84 L60 108 L101.6 84" stroke="#8fb3f0" stroke-width="10"/>
+    <path d="M80.4 46.5 L57 33 L33.6 46.5 L33.6 73.5 L57 87 L80.4 73.5" stroke="#c9dcfa" stroke-width="12"/>
+    <path d="M101.6 32 L101.6 84" stroke="#e0b03e" stroke-width="11"/>
+  </g>
+</svg>
